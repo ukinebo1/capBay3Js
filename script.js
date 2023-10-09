@@ -17,9 +17,7 @@ function returnObj(arr){
                 if(objectValue[item] === undefined){
                     objectValue[item]= 1;
                 }
-                else{
-                    objectValue[item]++;
-                } 
+                    objectValue[item]++
             } 
         })
         return objectValue;
